@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kakul Gupta - Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f5f7ff;color:#222}
+nav{position:sticky;top:0;background:white;padding:15px 20px;display:flex;justify-content:space-between;box-shadow:0 2px 10px #0001;z-index:10}
+nav b{color:#1a73e8;font-size:20px}
+nav a{margin-left:15px;text-decoration:none;color:#333;font-weight:bold}
+section{padding:60px 20px;max-width:900px;margin:auto}
+.hero{background:#e8efff;text-align:center;padding:80px 20px}
+.hero h1{font-size:40px;margin:10px 0}
+.btn{background:#1a73e8;color:white;padding:12px 25px;border-radius:25px;text-decoration:none;display:inline-block;margin-top:15px}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 15px #0001;margin:15px 0}
+.skills{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px}
+@media(max-width:600px){.skills{grid-template-columns:1fr} .hero h1{font-size:28px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <b>Kakul Gupta</b>''
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- 1. HOME SECTION -->
+<section class="hero" id="home">
+  <p>BSc Computer Science Student</p> <!-- EDIT HERE -->
+  <h1>Hi, I'm Kakul Gupta</h1> <!-- EDIT HERE -->
+  <p>Aspiring software developer focused on C++ and Python.</p>
+  <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<!-- 2. ABOUT SECTION -->
+<section id="about">
+  <h2>About Me</h2><br>
+  <div class="card">
+    <p>I am a BSc Computer Science student driven by curiosity and problem-solving. I enjoy learning programming, data structures and web development. My goal is to build practical projects that solve real-world problems.</p> <!-- EDIT HERE -->
+  </div>
+</section>
+
+<!-- 3. SKILLS SECTION -->
+<section id="skills">
+  <h2>Skills</h2><br>
+  <div class="skills">
+    <div class="card"><h3>C++</h3><p>DSA, OOP, Algorithms</p></div>
+    <div class="card"><h3>Python</h3><p>Scripting, Libraries</p></div>
+    <div class="card"><h3>HTML/CSS</h3><p>Responsive Design</p></div>
+  </div>
+</section>
+
+<!-- 4. PROJECTS SECTION -->
+<section id="projects">
+  <h2>Projects</h2><br>
+  <div class="card"><h3>Algo Visualizer</h3><p>Interactive tool to visualize sorting algorithms.</p><a href="#">GitHub Link</a></div> <!-- EDIT HERE -->
+  <div class="card"><h3>Student Manager App</h3><p>CLI application to manage student records.</p><a href="#">GitHub Link</a></div>
+  <div class="card"><h3>Personal Portfolio Website</h3><p>This website - Responsive 5+ sections.</p><a href="#">Live Link</a></div>
+</section>
+
+<!-- 5. CONTACT SECTION -->
+<section id="contact">
+  <h2>Let's Connect</h2><br>
+  <div class="card">
+    <p>Email: kakul.gupta@email.com</p> <!-- EDIT HERE -->
+    <p>LinkedIn: linkedin.com/in/kakul-gupta</p>
+    <p>GitHub: github.com/kakul-gupta</p>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:20px;background:white;margin-top:20px">
+  © 2024 Kakul Gupta - Built with passion
+</footer>
+
+</body>
+</html>
